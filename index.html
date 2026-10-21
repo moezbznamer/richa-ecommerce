@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>RICHA | Modern Animated Clothing</title>
+
+    <meta
+      name="description"
+      content="Discover RICHA, your destination for modern clothing, anime-inspired designs, and personalized fashion."
+    />
+    <meta name="author" content="RICHA" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="RICHA | Modern Animated Clothing" />
+    <meta
+      property="og:description"
+      content="Discover RICHA, your destination for modern clothing, anime-inspired designs, and personalized fashion."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/image/hero-anime-1.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@richa_boutique" />
+    <meta name="twitter:title" content="RICHA | Modern Animated Clothing" />
+    <meta
+      name="twitter:description"
+      content="Discover RICHA, your destination for modern clothing, anime-inspired designs, and personalized fashion."
+    />
+    <meta name="twitter:image" content="/image/hero-anime-1.jpg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Creepster&family=Cinzel:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      #lovable-badge,
+      #lovable-badge-cta,
+      aside[aria-label="Edit with Lovable"] {
+        display: none !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script>
+      (function () {
+        const removeLovableBadge = () => {
+          document
+            .querySelectorAll(
+              '#lovable-badge, #lovable-badge-cta, aside[aria-label="Edit with Lovable"]'
+            )
+            .forEach((el) => el.remove());
+        };
+        removeLovableBadge();
+        new MutationObserver(removeLovableBadge).observe(document.documentElement, {
+          childList: true,
+          subtree: true,
+        });
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

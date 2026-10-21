@@ -1,0 +1,48 @@
+
+{
+  "nav": {
+    "home": "Accueil",
+    "men": "Hommes",
+    "women": "Femmes",
+    "kids": "Enfants",
+    "otaku": "Otaku",
+    "offers": "Offres",
+    "cart": "Panier",
+    "profile": "Profil",
+    "login": "Connexion"
+  },
+  "hero": {
+    "title": "Style Intemporel",
+    "subtitle": "Découvrez notre collection exclusive",
+    "cta": "Découvrir"
+  },
+  "products": {
+    "addToCart": "Ajouter au panier",
+    "outOfStock": "Rupture de stock",
+    "size": "Taille",
+    "color": "Couleur",
+    "stock": "Stock",
+    "price": "Prix",
+    "viewDetails": "Voir détails",
+    "specialOffer": "OFFRE SPÉCIALE"
+  },
+  "offers": {
+    "title": "OFFRES SPÉCIALES",
+    "subtitle": "Découvrez nos produits en promotion pour un style incomparable",
+    "viewAll": "Voir toutes les offres",
+    "noOffers": "Aucune offre spéciale disponible pour le moment"
+  },
+  "cart": {
+    "loginRequired": "Vous devez être connecté pour ajouter au panier",
+    "addedToCart": "Produit ajouté au panier",
+    "empty": "Votre panier est vide"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  }
+}

@@ -1,0 +1,77 @@
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --bg-card: #2a2a2a;
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5db;
+  --text-muted: #9ca3af;
+  --border-color: #374151;
+  --luxury-gold: #d4af37;
+  --accent-color: #3b82f6;
+}
+
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-card: #ffffff;
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+  --luxury-gold: #d4af37;
+  --accent-color: #3b82f6;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #1a1a1a;
+  --bg-card: #2a2a2a;
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5db;
+  --text-muted: #9ca3af;
+  --border-color: #374151;
+  --luxury-gold: #d4af37;
+  --accent-color: #3b82f6;
+}
+
+.luxury-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.luxury-black {
+  background: var(--bg-primary);
+}
+
+.dark .bg-luxury-black {
+  background: var(--bg-secondary);
+}
+
+.text-luxury-gold {
+  color: var(--luxury-gold);
+}
+
+.btn-luxury {
+  background: linear-gradient(135deg, var(--luxury-gold), #b8941f);
+  color: #000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-luxury:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+}
+
+.luxury-gradient {
+  background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+}
+
+[data-theme="light"] .luxury-gradient {
+  background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+}

@@ -1,0 +1,48 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "men": "Men",
+    "women": "Women",
+    "kids": "Kids",
+    "otaku": "Otaku",
+    "offers": "Offers",
+    "cart": "Cart",
+    "profile": "Profile",
+    "login": "Login"
+  },
+  "hero": {
+    "title": "Timeless Style",
+    "subtitle": "Discover our exclusive collection",
+    "cta": "Discover"
+  },
+  "products": {
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "size": "Size",
+    "color": "Color",
+    "stock": "Stock",
+    "price": "Price",
+    "viewDetails": "View Details",
+    "specialOffer": "SPECIAL OFFER"
+  },
+  "offers": {
+    "title": "SPECIAL OFFERS",
+    "subtitle": "Discover our products on sale for an incomparable style",
+    "viewAll": "View all offers",
+    "noOffers": "No special offers available at the moment"
+  },
+  "cart": {
+    "loginRequired": "You must be logged in to add to cart",
+    "addedToCart": "Product added to cart",
+    "empty": "Your cart is empty"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}
