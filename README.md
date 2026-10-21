@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RICHA | Modern Animated Clothing
 
 Discover RICHA, your destination for modern clothing, anime-inspired designs, and personalized fashion.
@@ -70,3 +71,6 @@ Discover RICHA, your destination for modern clothing, anime-inspired designs, an
 ## 📄 License
 
 All rights reserved © RICHA.
+=======
+# richa-ecommerce
+>>>>>>> 1e4aba94e3eab77f1f82d1d694bdfdc93967dd49
